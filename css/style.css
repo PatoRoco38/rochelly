@@ -16,13 +16,21 @@ body {
     justify-content: space-between;
 }
 
+.flex.container {
+    display: flex;
+    align-items: flex-start;
+}
+
 .text-container {
     flex: 1;
     margin-right: 200px;
 }
 
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
+.text-container-livro {
+    flex: 1;
+    margin-left: 430px;
+}
+
+.image-container {
+    margin-right: 20px;
 }
