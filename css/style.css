@@ -10,10 +10,17 @@ body {
     --animate-delay: 0.9s;
   }
 
-.container {
+  .container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .flex.container {
@@ -31,6 +38,14 @@ body {
     margin-left: 430px;
 }
 
-.image-container {
-    margin-right: 20px;
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.image-container-dois img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
 }
