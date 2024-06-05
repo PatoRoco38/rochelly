@@ -35,7 +35,6 @@ body {
 
 .text-container-livro {
     flex: 1;
-    margin-left: 430px;
 }
 
 .image-container img {
@@ -44,8 +43,11 @@ body {
     max-height: 100%;
 }
 
-.image-container-dois img {
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
+.flex.container-dois {
+    display: flex;
+    align-items: flex-start;
+}
+
+.text-container-livro-dois {
+    flex: 1;
 }
