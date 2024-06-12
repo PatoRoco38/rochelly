@@ -7,8 +7,9 @@ body {
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/inter-regular.woff2') format('woff2'),
-         url('fonts/inter-regular.woff') format('woff');
+    src: url('fonts/inter-regular.woff2') format('woff2');
+    font-family: 'Catchy Mager';
+    src: url('font/CatchyMager-Normal.ttf');
   }
 
 :root {
@@ -48,7 +49,18 @@ body {
     height: auto;
     max-height: 100%;
 }
+
 p {
     font-family: 'Inter', sans-serif;
     color: #CBBBFF;
   }
+
+h4 {
+    font-family: 'Catchy Mager';
+    color: #11cdd4;
+}
+
+.text-container-contato {
+    flex: 1;
+    margin-right: 100px;
+}
