@@ -7,12 +7,18 @@ body {
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/inter-regular.woff2') format('woff2');
+    src: url('C:/Git/site/fonts/Inter-Regular.ttf') format('truetype');
   }
 
 @font-face {
     font-family: 'Catchy Mager';
     src: url('C:/Git/site/fonts/CatchyMager-Normal.ttf') format('truetype');
+}
+
+#home {
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 :root {
@@ -70,4 +76,4 @@ h4 {
 
 .nav-link {
     color: #11cdd4; 
-  }
+}
