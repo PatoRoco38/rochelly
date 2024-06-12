@@ -8,9 +8,12 @@ body {
 @font-face {
     font-family: 'Inter';
     src: url('fonts/inter-regular.woff2') format('woff2');
-    font-family: 'Catchy Mager';
-    src: url('font/CatchyMager-Normal.ttf');
   }
+
+@font-face {
+    font-family: 'Catchy Mager';
+    src: url('C:/Git/site/fonts/CatchyMager-Normal.ttf') format('truetype');
+}
 
 :root {
     --animate-duration: 2000ms;
@@ -64,3 +67,7 @@ h4 {
     flex: 1;
     margin-right: 100px;
 }
+
+.nav-link {
+    color: #11cdd4; 
+  }
