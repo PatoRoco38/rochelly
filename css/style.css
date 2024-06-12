@@ -5,6 +5,12 @@ body {
     background-color: #3a0a49;
 }
 
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/inter-regular.woff2') format('woff2'),
+         url('fonts/inter-regular.woff') format('woff');
+  }
+
 :root {
     --animate-duration: 2000ms;
     --animate-delay: 0.9s;
@@ -42,3 +48,7 @@ body {
     height: auto;
     max-height: 100%;
 }
+p {
+    font-family: 'Inter', sans-serif;
+    color: #CBBBFF;
+  }
