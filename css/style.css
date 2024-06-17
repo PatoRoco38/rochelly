@@ -64,7 +64,7 @@ p {
     color: #CBBBFF;
   }
 
-h4 {
+h2 {
     font-family: 'Catchy Mager';
     color: #11cdd4;
 }
@@ -77,4 +77,5 @@ h4 {
 .nav-link {
     color: #11cdd4; 
     font-size: 24px;
+    background-color: whitesmoke;
 }
