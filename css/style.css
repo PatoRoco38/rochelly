@@ -96,3 +96,9 @@ footer {
     text-align: right;
     padding: 10px 20px;
 }
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    text-align: right;
+}
