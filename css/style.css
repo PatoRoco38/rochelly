@@ -81,6 +81,10 @@ h1 {
     background-color: #3a0a49;
 }
 
+.contato-icone {
+    text-align: center;
+}
+
 .contato-icone img {
     width: 80px; 
     height: 80px; 
