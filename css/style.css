@@ -62,6 +62,7 @@ body {
 p {
     font-family: 'Inter', sans-serif;
     color: #CBBBFF;
+    font-size: 17px;
   }
 
 h1 {
@@ -83,10 +84,15 @@ h1 {
 .contato-icone img {
     width: 80px; 
     height: 80px; 
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .home-imagem img {
     width: 1290px;
     height: 780px;
+}
+
+footer {
+    text-align: right;
+    padding: 10px 20px;
 }
