@@ -8,11 +8,16 @@ body {
 @font-face {
     font-family: 'Inter';
     src: url('C:/Git/site/fonts/Inter-Regular.ttf') format('truetype');
-  }
+}
 
 @font-face {
     font-family: 'Catchy Mager';
     src: url('C:/Git/site/fonts/CatchyMager-Normal.ttf') format('truetype');
+}
+
+:root {
+    --animate-duration: 2000ms;
+    --animate-delay: 0.9s;
 }
 
 #home {
@@ -21,58 +26,29 @@ body {
     margin: 0;
 }
 
-:root {
-    --animate-duration: 2000ms;
-    --animate-delay: 0.9s;
-  }
-
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.flex.container {
-    display: flex;
-    align-items: flex-start;
-}
-
 .text-container {
-    flex: 1;
     margin-right: 200px;
 }
 
 .text-container-livro {
-    flex: 1;
+    margin-right: 0;
 }
 
 .image-container img {
     max-width: 100%;
     height: auto;
-    max-height: 100%;
+    margin: 10px;
 }
 
 p {
     font-family: 'Inter', sans-serif;
     color: #CBBBFF;
     font-size: 17px;
-  }
+}
 
 h1 {
     font-family: 'Catchy Mager';
     color: #11cdd4;
-}
-
-.text-container-contato {
-    flex: 1;
-    margin-right: 100px;
 }
 
 .nav-link {
@@ -114,7 +90,7 @@ h2 {
         margin-bottom: 20px;
     }
 
-    .text-container-contato {
+    .text-container-livro {
         margin-right: 0;
         margin-bottom: 20px;
     }
@@ -131,6 +107,11 @@ h2 {
     .home-imagem img {
         width: 100%;
         height: auto;
+    }
+
+    .row.align-items-center {
+        flex-direction: column; /* Força os itens a ficarem em coluna */
+        text-align: center; /* Centraliza o texto */
     }
 }
 
