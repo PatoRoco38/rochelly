@@ -90,7 +90,7 @@ h2 {
         margin-bottom: 20px;
     }
 
-    .text-container-livro {
+    .text-container-contato {
         margin-right: 0;
         margin-bottom: 20px;
     }
@@ -107,11 +107,6 @@ h2 {
     .home-imagem img {
         width: 100%;
         height: auto;
-    }
-
-    .row.align-items-center {
-        flex-direction: column; /* Força os itens a ficarem em coluna */
-        text-align: center; /* Centraliza o texto */
     }
 }
 
