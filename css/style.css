@@ -7,12 +7,12 @@ body {
 
 @font-face {
     font-family: 'Inter';
-    src: url('C:/Git/site/fonts/Inter-Regular.ttf') format('truetype');
+    src: url('https://github.com/PatoRoco38/rochelly/blob/main/fonts/Inter-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Catchy Mager';
-    src: url('C:/Git/site/fonts/CatchyMager-Normal.ttf') format('truetype');
+    src: url('https://github.com/PatoRoco38/rochelly/blob/main/fonts/CatchyMager-Normal.ttf') format('truetype');
 }
 
 #home {
