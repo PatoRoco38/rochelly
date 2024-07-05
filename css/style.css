@@ -15,15 +15,21 @@ body {
     src: url('C:/Git/site/fonts/CatchyMager-Normal.ttf') format('truetype');
 }
 
-:root {
-    --animate-duration: 2000ms;
-    --animate-delay: 0.9s;
+.animate__animated.animate__fadeInUp {
+  animation-duration: 1500ms;
+  animation-delay: 1s;
 }
 
 #home {
     width: 100%;
     padding: 0;
     margin: 0;
+}
+
+.home-saudacao {
+    font-size: 90px;
+    color: #11cdd4;
+    font-family: 'Catchy Mager';
 }
 
 .text-container {

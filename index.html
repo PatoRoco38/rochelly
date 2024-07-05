@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <title>Rochelly César - Escritora</title>
-</head>
-<body>
-    <!-- Barra de navegação -->
+  </head>
+  <body>
     <header id="header-wrap">
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
           <div class="container">
@@ -35,93 +40,136 @@
       </nav>
     </header>
 
-        <!-- Home começa aqui -->
-        <br>
-        <br>
-          <section id="home">
-            <div class="container">
-              <div class="home-imagem">
-                <img src="img/home.svg" alt="Rochelly Cesar">
+    <!-- Home começa aqui -->
+    <br>
+    <br>
+      <section id="home">
+        <h1 class="animate__animated animate__fadeInUp">Home</h1>
+        <div class="container">
+          <div class="row"> <!--A classe row cria uma linha dentro de um conteiner-->
+            <div class="col-12 col-md-6">
+              <div class="image-container" >
+                <div class="animate__animated animate__fadeInUp">
+                  <img src="img/home.svg" alt="Rochelly Cesar">
+                </div>
               </div>
             </div>
-          </section>
+            <div class="col-12 col-md-6">
+              <div class="animate__animated animate__fadeInUp">
+                <p class="home-saudacao">Olá, leitores!</p><br /><h1>Sejam bem-vindos ao meu site.</h1> 
+                <p>Meu nome é Rochelly César. Eu sou escritora de romances. 
+                  Prazer em te conhecer! Venha comigo que vou te contar um pouco sobre minha trajetória.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Home termina aqui -->
 
-    <!-- Biografia começa aqui -->
-    <section id="biografia">
-      <div class="container">
-        <div class="row">
-            <img class="animate__animated animate__pulse" data-aos="fade-up" data-aos-delay="200" src="img/biografia.svg"/>
+      <!-- Biografia começa aqui -->
+      <section id="biografia">
+        <h1 class="animate__animated animate__fadeInUp">Biografia</h1>
+        <div class="container">
+          <div class="row"> 
+            <div class="col-12 col-md-6">
+              <div class="image-container" >
+                <div class="animate__animated animate__fadeInUp">
+                  <img src="img/biografia.svg" alt="Rochelly Cesar - biografia">
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="animate__animated animate__fadeInUp"> 
+                <p>Nasci e cresci em Goiânia, cidade onde moro ainda hoje, sempre em meio aos livros, música e filmes - 
+                  como toda amante de histórias. Graduei em Artes Visuais - design e artes aplicadas pela Universidade Federal de Goiás. 
+                  Ainda durante o curso, comecei a escrever meu primeiro romance “Profundo Sono Esperado Sonho”, mas na época era um 
+                  passatempo e demorei ano para ter coragem de publicar. Hoje, eu me orgulho muito em dizer que sou uma escritora e que 
+                  sigo dedicada a esta carreira em tempo integral. Logo republicarei meu livro “Você não pode parar a garota”, que conta 
+                  com uma narrativa leve e fluida, apesar de tocar em temas sensíveis, vai te fazer esquecer do mundo.</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <br>
-    </section>
+      </section>
     <!-- Biografia termina aqui -->
 
     <!-- Livros começa aqui -->
     <section id="livros">
       <div class="container">
-        <div class="row">
-          <h1 class="animate__animated animate__zoomIn" data-aos="fade-up" data-aos-delay="400">
-            Livros
-          </h1>
-            <img class="animate__animated animate__backInRight" src="img/Livro1_Texto1.png" alt="Profundo Sono Esperado Sonho"/>
+        <div class="row align-items-center">
+          <h1 class="animate__animated animate__fadeInUp">Livros</h1>
+          <div class="col-12 col-md-6">
+            <div class="image-container">
+              <img class="animate__animated animate__fadeInUp" src="img/PSES.jpg" alt="Profundo Sono Esperado Sonho"/>
+            </div>
+          </div>
           <br>
           <br>
-            <img class="animate__animated animate__backInRight" src="img/Livro2_Texto2.png" alt="Você Não Pode Parar A Garota"/>
+          <div class="col-12 col-md-6">
+            <h1 class="animate__animated animate__fadeInUp">Profundo Sono<br>Esperado Sonho</h1>
+            <div class="flex-container">
+              <div class="text-container-livro">
+                <p>Sinopse</p>
+                <p>Será mesmo impossível amar alguém que existe somente em sonho? E se descobrisse que esse alguém dos sonhos existe na
+                   realidade. O que você faria?
+                  Essa é a história de João, um psiquiatra sensível e apaixonado, casado com a bela e espirituosa Daniele.
+                   Ele trabalha com seu melhor amigo e confidente, o psicanalista Guilherme, e junto aos dois, tem uma vida boa e tranquila.
+                    Até começar a sonhar com uma certa garota todas as noites e se apaixonar por ela. Daí em diante, João ânsia por suas noites e cansa-se do seu dia e de todos nele - querendo que seu sonho seja sua realidade. E, com o tempo, perde-se no sentimento profundo e confuso que tem pela garota de seus sonhos, sem mais fazer distinção entre o que é sonho e o que é real.
+                  “Com uma escrita suave e cativante, Rochelly captura nossa curiosidade em saber o que acontecerá ante a todos os 
+                  desafios em alimentar uma paixão impossível de acontecer.” - Daniel Gonçalves @danielgoncalvesescritor
+                  -
+                  Este livro trata de uma utopia enquanto João e Alice se vêm em sonho, em uma clareira, ao pé de uma grande e secular 
+                  árvore, e uma distopia ao acordarem, no mundo real. A trama nos faz pensar sobre escolhas - e aquilo que abrimos mão ao
+                   realizá-las- relacionamentos e modos de se amar.
+                <br>
+                </p>
+              </div>
+            </div>
+          </div>      
         </div>
       </div>
       <br>
       <br>
-    </section>
-    <!-- Livros termina aqui aqui -->
-
-    <!-- Contato começa aqui -->
-    <section id="contato">
       <div class="container">
-        <div class="row">
-          <h1 class="animate__animated animate__jackInTheBox" data-aos="fade-up" data-aos-delay="400">Contato</h1>
-          <div class="col-md-6">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
             <div class="image-container">
-              <img class="animate__animated animate__fadeIn" src="img/contato.svg" alt="Rochelly Cesar Escritora"/>
+              <br>
+              <img class="animate__animated animate__fadeInUp" src="img/Livro2.jpg" alt="Você Não Pode Parar A Garota"/>
               <br>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="text-container-contato">
-              <div class="flex-container" data-aos="fade-up" data-aos-delay="400">
-                <h2>Espero ter a oportunidade de te ver novamente no futuro com novos livros, novos romances!</h2>
+          <div class="col-12 col-md-6">
+            <h1 class="animate__animated animate__fadeInUp">Você Não Pode Parar A Garota</h1>
+            <div class="flex-container">
+              <div class="text-container-livro">
+                <p>Sinopse</p>
+                <p>Na obra, Você Não Pode Parar A Garota, a brasileira Freya passa sua adolescência e os primeiros anos da vida adulta 
+                  entre os livros, no sebo de sua mãe. Focada apenas nos estudos e no sonho de ir para a Inglaterra para estudar literatura
+                   na Universidade de Oxford. E aos seus 23 anos, é uma jovem inocente e com poucas experiências em relações amorosas.
+                  Ao chegar no Reino Unido, Freya conhece Scot, um homem inglês, atraente e famoso, com quem começa a viver uma história
+                   de amor digna de enredos de livros. Ele é mais velho, apaixonado por artes, frequenta lugares luxuosos e oferece à
+                    protagonista tudo o que o dinheiro pode comprar. A personagem principal parece viver um verdadeiro conto de fadas.
+                  Porém, o sonho sutilmente se transforma em pesadelo quando Scot revela uma estranha obsessão por Freya. Agora, no meio
+                   do conflito entre viver a primeira paixão, um tanto conturbada, e concretizar a sua maior ambição profissional, ela
+                    precisa tomar decisões. É neste momento que a protagonista inicia sua jornada de amadurecimento que a fará refletir
+                     sobre amor-próprio, autoconfiança, individualidade e as mudanças internas provocadas por um relacionamento tóxico.
+                  O desenrolar dessa história você terá de descobrir, ao mergulhar, a fundo, nos encontros, desencontros e lições de vida.
+                   Deleite-se nas próximas páginas com essa explosiva história romântica, e boa leitura para todos.
+                <br>
+                </p>
               </div>
-              <div class="animate__animated animate__zoomIn" data-aos="fade-up" data-aos-delay="400">
-                <div class="contato-icone">
-                  <br>
-                  <br>
-                  <br>
-                  <a href="mailto:contato.rochellycesar@gmail.com" target="_blank"><img src="img/gmail_icone.svg"/></a> 
-                  <a href="https://www.instagram.com/rochellycesar" target="_blank"><img src="img/instagram_icone.svg"/></a>
-                  <a href="https://www.tiktok.com/@rochellycesar?t=8mwbLU4o0gf&r=1" target="_blank"><img src="img/tiktok_icone.svg" ></a>
-                  <br>
-                </div>
-              </div> 
             </div>
           </div>
         </div>
       </div>
-      
-      
     </section>
-    <!-- Contato termina aqui aqui -->
+    <!-- Livros termina aqui aqui -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 1000,
-        once: true
-      });
-    </script>
-</body>
-<footer>
-  <p>Rochelly Cesar Escritora. © 2024 Meu Site. Todos os direitos reservados.</p>
-</footer>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
