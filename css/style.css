@@ -15,11 +15,6 @@ body {
     src: url('C:/Git/site/fonts/CatchyMager-Normal.ttf') format('truetype');
 }
 
-.animate__animated.animate__fadeInUp {
-    animation-duration: 1500ms;
-    animation-delay: 1s;
-  }
-
 #home {
     width: 100%;
     padding: 0;
@@ -113,6 +108,23 @@ h2 {
     .home-imagem img {
         width: 100%;
         height: auto;
+    }
+
+    h1 {
+        font-family: 'Catchy Mager';
+        color: #11cdd4;
+    }
+
+    p {
+        font-family: 'Inter', sans-serif;
+        color: #CBBBFF;
+        font-size: 17px;
+    }
+
+    .home-saudacao {
+        font-size: 90px;
+        color: #11cdd4;
+        font-family: 'Catchy Mager';
     }
 }
 
