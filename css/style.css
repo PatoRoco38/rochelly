@@ -7,12 +7,12 @@ body {
 
 @font-face {
     font-family: 'Inter';
-    src: url('https://github.com/PatoRoco38/rochelly/blob/main/fonts/Inter-Regular.ttf') format('truetype');
+    src: url(Inter.ttc) format('truetype');
 }
 
 @font-face {
     font-family: 'Catchy Mager';
-    src: url('https://github.com/PatoRoco38/rochelly/blob/main/fonts/CatchyMager-Normal.ttf') format('truetype');
+    src: url(CatchyMager-Normal.ttf) format('truetype');
 }
 
 #home {
@@ -84,6 +84,11 @@ h2 {
     text-align: right;
 }
 
+a {
+    font-family: 'Catchy Mager';
+    color: #11cdd4;
+}
+
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
     .text-container {
@@ -126,6 +131,11 @@ h2 {
         color: #11cdd4;
         font-family: 'Catchy Mager';
     }
+
+    a {
+        font-family: 'Catchy Mager';
+        color: #11cdd4;
+    }
 }
 
 /* Responsividade para tablets */
@@ -150,5 +160,27 @@ h2 {
     .home-imagem img {
         width: 80%;
         height: auto;
+    }
+
+    h1 {
+        font-family: 'Catchy Mager';
+        color: #11cdd4;
+    }
+
+    p {
+        font-family: 'Inter', sans-serif;
+        color: #CBBBFF;
+        font-size: 17px;
+    }
+
+    .home-saudacao {
+        font-size: 90px;
+        color: #11cdd4;
+        font-family: 'Catchy Mager';
+    }
+
+    a {
+        font-family: 'Catchy Mager';
+        color: #11cdd4;
     }
 }
